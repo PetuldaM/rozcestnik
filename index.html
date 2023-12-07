@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dopravní zrcadlo rozcestník</title>
+    <title>Your Page Title</title>
     <style>
         body {
-            background-color: #fff6ef; /* Set your desired background color */
+            background-color: #fff6ef;
+            font-family: Verdana, sans-serif; /* Change the font-family to Verdana */
+        }
+
+        .section {
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 125vh; /* Ensure the body takes up the full viewport height */
-            margin: 5px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: #fff6ef;
         }
 
-        img {
-            width: 180px; /* Set the width of your images */
+        .section h2 {
+            color: #333333;
+        }
+
+        .section img {
+            max-width: 200px;
             height: auto;
-            margin: 5px;
-        }
-
-        a {
-            color: #333; /* Set the color of your links */
-            text-decoration: none;
-            font-size: 18px;
-            margin: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
         }
     </style>
 </head>
+
 <body>
-    <div>
+
+    <div class="section">
+
         <h2>Chcete si přečíst blogový článek?</h2>
         <a href="https://medium.com/@petra.martina.dadata.p2023/dopravn%C3%AD-zrcadlo-prahy-aneb-autem-pohodln%C4%9B-a-bez-nehod-2608a4c9cb81" target="_blank"><img src="obrazky\cartoon.png" alt="Blog: Dopravní zrcadlo Prahy">
         </a>
     </div>
 
-    <div>
+    <div class="section">
         <h2>Zajímá Vás vizualizace?</h2>
-        <a href="https://public.tableau.com/app/profile/petra.markov.martina.moravcov./viz/Car_Accidents_Prague_mobile/Dashboard1" 
-        target="_blank"> <img src="obrazky\grafy_nehoda.png" alt="Tableau vizualizace pro mobilní telefon"></a>
+        <a href="https://public.tableau.com/app/profile/petra.markov.martina.moravcov./viz/Car_Accidents_Prague_mobile/Dashboard1" target="_blank"> <img src="obrazky\grafy_nehoda.png" alt="Tableau vizualizace pro mobilní telefon">
+        </a>
     </div>
 
-    <div>
+    <div class="section">
         <h2>Chcete se podívat na kódy k projektu?</h2>
-        <a href="https://github.com/PetuldaM/projekt" 
-        target="_blank"> <img src="obrazky\iconmonstr-github-1-240.png" alt="Kódy k projektu"></a>
-    </div>
-
-
-
+        <a href="https://github.com/PetuldaM/projekt" target="_blank"> <img src="obrazky\iconmonstr-github-1-240.png" alt="Kódy k projektu"></a>
+    <div>
 
 </body>
+
 </html>
